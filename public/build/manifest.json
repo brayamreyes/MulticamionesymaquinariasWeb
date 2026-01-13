@@ -1,0 +1,29 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-Ba4J9T_d.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/fonts/orkney-bold.otf": {
+    "file": "assets/orkney-bold-BjaM9e5a.otf",
+    "src": "resources/fonts/orkney-bold.otf"
+  },
+  "resources/fonts/orkney-light.otf": {
+    "file": "assets/orkney-light-C9WdDKWg.otf",
+    "src": "resources/fonts/orkney-light.otf"
+  },
+  "resources/fonts/orkney-medium.otf": {
+    "file": "assets/orkney-medium-BFGzDhSk.otf",
+    "src": "resources/fonts/orkney-medium.otf"
+  },
+  "resources/fonts/orkney-regular.otf": {
+    "file": "assets/orkney-regular-BK8bfKLh.otf",
+    "src": "resources/fonts/orkney-regular.otf"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-CTDbglmj.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}
