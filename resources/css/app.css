@@ -1,0 +1,16 @@
+@import "fonts.css";
+@import "common.css";
+@import "buttons.css";
+@import "forms.css";
+@import "post-item.css";
+@import "header.css";
+@import "paginate-splide.css";
+@import "product-gallery.css";
+@import "modals.css";
+
+@import '@splidejs/splide/dist/css/splide.min.css';
+@import "pikaday/css/pikaday.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -1,0 +1,11 @@
+header {
+    @apply sticky bg-primary w-full top-0 z-50;
+}
+
+body.is-home header {
+    @apply fixed bg-transparent transition-all;
+}
+
+body.is-home header.header-fixed {
+    @apply bg-primary;
+}

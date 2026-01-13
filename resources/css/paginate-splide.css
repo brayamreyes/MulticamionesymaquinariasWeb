@@ -1,0 +1,12 @@
+.splide.with-pagination .splide__pagination {
+    bottom: -3rem;
+}
+
+.splide.with-pagination .splide__pagination__page {
+    @apply h-[17px] w-[17px] rounded-full bg-white border border-solid !border-secondary;
+}
+
+.splide.with-pagination .splide__pagination__page.is-active {
+    @apply bg-secondary transform-none opacity-100;
+}
+

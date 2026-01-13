@@ -1,0 +1,19 @@
+.thumbnails {
+    @apply flex p-0 justify-center
+}
+
+.thumbnail {
+    @apply w-[90px] h-auto overflow-hidden list-none mx-1 p-0 cursor-pointer
+}
+.thumbnail img {
+    @apply w-28 h-full
+}
+.thumbnail {
+    @apply opacity-30
+}
+.thumbnail.is-active {
+    @apply opacity-100
+}
+.splide__track--nav>.splide__list>.splide__slide.is-active {
+    @apply !border-none
+}

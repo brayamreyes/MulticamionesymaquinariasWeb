@@ -1,0 +1,35 @@
+body {
+    @apply font-orkney;
+}
+
+.triangle {
+    @apply relative;
+}
+
+.triangle::after {
+    @apply content-[''] absolute left-[30px] bottom-[-58px] h-0 w-0 border-solid transform;
+    @apply -translate-x-1/2 border-t-[27px] border-r-[32.5px] border-b-[0] border-l-[32.5px];
+    @apply border-t-secondary border-r-transparent border-l-transparent max-lg:hidden;
+}
+
+.triangle.with-opacity::after {
+    @apply opacity-[0.8];
+}
+figcaption {
+    @apply !hidden;
+}
+.splide:not( .is-overflow ) .splide__list {
+    justify-content: center;
+}
+
+.featured_products_splide .splide__arrow--prev {
+    @apply -left-8 bg-transparent;
+}
+
+.featured_products_splide .splide__arrow--next {
+    @apply -right-8 bg-transparent;
+}
+
+.featured_products_splide.hidden_arrows .splide__arrows {
+    @apply hidden;
+}

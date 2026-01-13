@@ -1,0 +1,32 @@
+select {
+    @apply block w-full rounded-lg px-3 sm:py-3.5 py-1.5 text-gray-900 border border-gray ring-1 ring-inset ring-gray-300 placeholder:text-gray-300 focus:outline-0 focus:ring-2 focus:ring-inset focus:ring-primary text-sm sm:leading-6 disabled:bg-[#EEEEEE] disabled:text-[#A6A8AB] !important;
+}
+
+select:invalid {
+    @apply text-gray-300 !important;
+}
+
+input[type=text],
+input[type=time],
+input[type=number],
+input[type=email],
+input[type=password],
+input[type=date],
+textarea{
+    @apply block bg-white w-full rounded-lg border border-gray px-3 sm:py-2.5 py-1.5 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-300 focus:outline-0 focus:ring-1 focus:ring-inset focus:ring-primary text-sm sm:leading-6 disabled:bg-[#EEEEEE] disabled:text-[#A6A8AB] !important;
+}
+
+.validation-error {
+    @apply text-red-400 text-sm;
+}
+
+div.is-invalid select,
+div.is-invalid input[type=text],
+div.is-invalid input[type=time],
+div.is-invalid input[type=number],
+div.is-invalid input[type=email],
+div.is-invalid input[type=password],
+div.is-invalid input[type=date],
+div.is-invalid textarea {
+    @apply !border-red-400;
+}

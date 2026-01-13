@@ -1,0 +1,23 @@
+.btn {
+    @apply rounded-lg flex justify-center items-center px-5 py-2 ;
+}
+
+.btn-primary {
+    @apply bg-primary text-white;
+}
+
+.btn-secondary {
+    @apply bg-secondary text-white;
+}
+
+.btn-outline-secondary {
+    @apply bg-transparent border border-secondary text-secondary;
+}
+
+.btn-white {
+    @apply bg-white text-secondary;
+}
+
+.btn-whatsapp {
+    @apply bg-[#42AE39] text-white fixed bottom-3 right-3 z-10 p-3 rounded-xl transition-all hover:bg-[#48b83e];
+}
